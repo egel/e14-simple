@@ -1,8 +1,10 @@
 # Egzamin E14 2014
 
-## Opinia internauty
+## Treść zadania
+
+> Na podstawie opinii internauty.
+
 2.06 był egzamin praktyczny z E-14 (niewiele wspólnego z rzeczywistym tworzeniem stron www-o bazach danych ZERO)
-Zadanie:
 
   - do dyspozycji windowsowski notatnik !!!
   - zrobić baner statyczny i zapisać w jpeg - do dyspozycji **paint** lub **gimp** (narysować trójkąt, elipsę w środku napis"matematyka" obok elipsa i trójkąt) i umieścić na 1 stronie.
@@ -12,3 +14,30 @@ Zadanie:
   - na trzeciej skrypt js(użytkownik wpisuje najpierw pierwszą liczbę następnie drugą i ma się wyświetlić ciąg liczb zawartych pomiędzy wpisanymi).
   - trzeba jeszcze napisać skrypt zabezpieczający hasłem dostęp do strony.
   - css w pliku zewnętrznym.
+
+
+## Omówienie
+
+Na całość zadania składają się 4 strony.
+
+  - index.html
+  - strona1.html
+  - strona2.html
+  - strona3.html
+
+Strona `index.html` zawiera baner (pierwszy lepszy pobrany z internetu na cele prezentacji)
+
+Strona `strona1.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści na przykładowy numer pesel.
+
+Strona `strona2.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który sprawdza podaną liczbę i wyświetla jej status (większ, mniejsza lub równa zero).
+
+Strona `strona3.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który pobiera od użytkownika 2 liczby i wyświetla ich przedział.
+
+## Zaawansowane
+Skrypt jest zrobiony tak aby był najprostrzy z możliwych (przy zachowaniu zdrowego rozsądku).
+
+Nie zawiera żadnych skryptów które by sprawdzały i walidowały treści dostarczane od użytkownika.
+
+
+## Licencja
+Licencja MIT - Maciej Sypień.
