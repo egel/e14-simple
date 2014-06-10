@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+}
+
+#naglowek-strony{
+    width: 100%;
+    min-height: 200px;
+    background: red;
+}
+
+
+#calosc{
+    background: transparent;
+    min-height: 400px;
+    clear: both;
+}
+
+#menu-nawigacyjne{
+    width:25%;
+    min-height: 100px;
+    background-color: green;
+    float:left;
+}
+
+#tresc-strony{
+    width: 75%;
+    min-height: 100px;
+    background-color: yellow;
+    float: left;
+}
+
+#pasek-statusu {
+    width: 100%;
+    min-height: 40px;
+    padding: 10px;
+    background-color: purple;
+    color: white;
+    text-align: center;
+}
+
+
