@@ -1,3 +1,21 @@
+function zaloguj() {
+    var login = document.getElementById('login').value;
+    var password = document.getElementById('haslo').value;
+
+    if(login=='as') {
+        if(password='as') {
+            window.location = 'http://localhost/~maciej/e14-simple/strona1.html';
+            alert('Gratuluje dostępu do strony!');
+        }
+        else {
+            alert('Niepoprawne hasło!');
+        }
+    }
+    else {
+        alert('Niepoprawny login uzytkownika!');
+    }
+}
+
 function checkNumber() {
     var liczba = document.getElementById("moja_liczba").value;
 
@@ -19,8 +37,7 @@ function pokaz_przedzial_liczb()
     var liczba2 = document.getElementById("liczba_druga").value;
     var wynik = '';
 
-    for (i=liczba1; i<=liczba2; i++)
-    {
+    for (i=liczba1; i<=liczba2; i++) {
         wynik += i + ", ";
     }
 

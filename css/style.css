@@ -39,3 +39,19 @@ body {
 }
 
 
+/* style dla formularza logowania -> index.html */
+#banerek {
+    width: 100%;
+    min-height: 200px;
+    background: red;
+    text-align: center;
+}
+
+#formularz-logowania {
+    width: 100%;
+    min-height: 200px;
+    background: green;
+    padding-top:30px;
+    text-align: center;
+}
+
