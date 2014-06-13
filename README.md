@@ -18,20 +18,17 @@
 
 ## Omówienie
 
-Na całość zadania składają się 4 strony.
+Na całość zadania składają się 3 strony.
 
-  - index.html
-  - strona1.html
-  - strona2.html
-  - strona3.html
+  - pesel.html
+  - pokaz_liczbe.html
+  - pokaz_przedzial_liczb.html
 
-Strona `index.html` zawiera baner (pierwszy lepszy pobrany z internetu na cele prezentacji)
+Strona `pesel.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści na przykładowy numer pesel.
 
-Strona `strona1.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści na przykładowy numer pesel.
+Strona `pokaz_liczbe.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który sprawdza podaną liczbę i wyświetla jej status (większ, mniejsza lub równa zero).
 
-Strona `strona2.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który sprawdza podaną liczbę i wyświetla jej status (większ, mniejsza lub równa zero).
-
-Strona `strona3.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który pobiera od użytkownika 2 liczby i wyświetla ich przedział.
+Strona `pokaz_przedzial_liczb.html` zawiera dołaczone pliki css, javascript oraz zmienione pole treści w którym zawarty jest skrypt który pobiera od użytkownika 2 liczby i wyświetla ich przedział.
 
 ## Zaawansowane
 Skrypt jest zrobiony tak aby był najprostrzy z możliwych (przy zachowaniu zdrowego rozsądku).
