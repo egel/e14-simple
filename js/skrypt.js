@@ -1,10 +1,12 @@
 function zaloguj() {
-    var login = document.getElementById('login').value;
-    var password = document.getElementById('haslo').value;
+    var login = prompt("Wpisz login", "");
+    var password = prompt("Wpisz haslo", "");
+    //var login = document.getElementById('login').value;
+    //var password = document.getElementById('haslo').value;
 
     if(login=='as') {
         if(password='as') {
-            window.location = 'http://localhost/~maciej/e14-simple/strona1.html';
+            window.location = 'http://localhost/~maciej/e14-simple/pesel.html';
             alert('Gratuluje dostępu do strony!');
         }
         else {
